@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: linear-gradient(to right, #ffffff, #424242);
+    background-size: cover;
+  }
+  
+  button {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #424242;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    &:hover {
+      background-color: #4a499c;
+      transition: 0.3s ease-in-out;
+    }
+
+  }
+  
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    background: linear-gradient(to left,white,grey);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+  

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive JavaScript Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1 id="main-heading">Welcome to JavaScript Interactivity</h1>
+  </header>
+
+  <main class="container">
+    <section>
+      <p id="description">click the button below to change this sentence</p>
+      <button onclick="changeText()">Change Text</button>
+    </section>
+
+    <section>
+      <p>Click the button to change the heading style:</p>
+      <button onclick="changeStyle()">Change Heading Style</button>
+    </section>
+
+    <section>
+      <p>Click to add or remove a surprise box:</p>
+      <button onclick="toggleBox()">Add/Remove Box</button>
+      <div id="box-container"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 JavaScript Interactive Page </p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
